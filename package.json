@@ -1,0 +1,23 @@
+{
+  "name": "fsl-qa-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dripnasc/FSL-QA-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dripnasc/FSL-QA-Challenge/issues"
+  },
+  "homepage": "https://github.com/dripnasc/FSL-QA-Challenge#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
