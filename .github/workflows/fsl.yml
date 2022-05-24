@@ -25,7 +25,7 @@ jobs:
         run: |
           cd automation-engineer-challenge
           npm install
-          npm start
+          npm start &
         if: always()
 
       - name: Running test cases using Chrome
