@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/dripnasc/FSL-QA-Challenge#readme",
   "devDependencies": {
     "cypress": "^9.7.0"
+  },
+  "engines": {
+    "npm": ">=8.5.0",
+    "node": ">=16.15.0"
   }
 }
