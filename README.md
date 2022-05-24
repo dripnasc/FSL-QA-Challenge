@@ -60,17 +60,7 @@ $ npm run cy:run
 
 <br>
 
-### 2. Through a Docker image
-Once the project is cloned, open a Terminal, navigate to the project root page and execute the following command.
-
-1. Build an image and run test cases
-```bash
-$  docker build -t adriana/fsl-qa-challenge .
-```
-
-<br>
-
-### 3. Through GitHub Actions
+### 2. Through GitHub Actions
 The repository contains the workflow "Regression Tests using Cypress Docker Image"" that runs all tests using an Ubuntu image with a Cypress container.
 The workflow is scheduled to run from Sunday to Friday at 23:05h but it also can be executed mannually.
 For all worflow runs, it is possible to download screenshots of failing test cases and videos of all executed test cases under Artifacts section.
