@@ -12,7 +12,6 @@ FSL-QA-Challenge contains some funcional automated tests for application "Appoin
 - [npm 8.0.0+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [cypress 9.0.0+](https://docs.cypress.io/guides/getting-started/installing-cypress)
 - [git](https://git-scm.com)
-- [Docker](https://docs.docker.com/desktop/#download-and-install)
 
 <br>
 <br>
@@ -81,6 +80,5 @@ To execute it mannually:
 - [Cypress.io](https://www.cypress.io/)
 - [Cypress documentation](https://docs.cypress.io/)
 - [GitHub Actions](https://docs.github.com/es/actions)
-- [Docker documentation](https://docs.docker.com)
 
 
