@@ -1,0 +1,37 @@
+name: Regression Tests using Cypress Docker Image
+
+on:
+    # The scheduled execution is commented to avoid contributtors to receiving emails daily. 
+    # schedule:
+    #   - cron: '5 23 * * 0-5'
+
+    workflow_dispatch:
+      inputs:
+
+jobs:
+  cypress-run:
+    name: Creating Ubuntu image with a Cypress container
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node12.18.3-chrome87-ff82
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Running test cases using Chrome
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+
+      - name: Uploading screenshots of failing test cases
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+      
+      - name: Uploading video of all test cases
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos
