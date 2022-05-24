@@ -1,5 +1,5 @@
 # FSL-QA-Challenge
-![cypress version](https://img.shields.io/badge/cypress-9.5.4-brigthgreen) 
+![cypress version](https://img.shields.io/badge/cypress-9.7.0-brigthgreen) 
 
 FSL-QA-Challenge contains some funcional automated tests for application "Appointment Management" from FullStack Labs using the framework [Cypress.io](https://www.cypress.io/).
 
