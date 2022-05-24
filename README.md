@@ -71,13 +71,13 @@ $  docker build -t adriana/fsl-qa-challenge .
 <br>
 
 ### 3. Through GitHub Actions
-The repository contains the workflow "Rain App Tests using Cypress Docker Image"" that runs all tests using an Ubuntu image with a Cypress container.
+The repository contains the workflow "Regression Tests using Cypress Docker Image"" that runs all tests using an Ubuntu image with a Cypress container.
 The workflow is scheduled to run from Sunday to Friday at 23:05h but it also can be executed mannually.
 For all worflow runs, it is possible to download screenshots of failing test cases and videos of all executed test cases under Artifacts section.
 
 To execute it mannually:
 1. Inside this GitHub repository go to tab "Actions";
-2. Under "All workflows" click on "Rain App Tests using Cypress Docker Image";
+2. Under "All workflows" click on "Regression Tests using Cypress Docker Image";
 3. Click on dropdown button "Run workflow" and click on button "Run workflow";
 4. Once the execution is finished, click on the workflow name;
 5. To verify all execution details in the execution console, click on "Creating Ubuntu image..." and expand each step ;

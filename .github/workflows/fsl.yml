@@ -23,9 +23,9 @@ jobs:
 
       - name: Running Application
         run: |
-        cd automation-engineer-challenge
-        npm install
-        npm start
+          cd automation-engineer-challenge
+          npm install
+          npm start
         if: always()
 
       - name: Running test cases using Chrome
