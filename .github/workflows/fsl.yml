@@ -17,6 +17,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Cloning Application
+        run: git clone https://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@github.com/fullstacklabs/automation-engineer-challenge.git
+        if: always()
+
+      - name: Running Application
+        run: |
+        cd automation-engineer-challenge
+        npm install
+        npm start
+        if: always()
+
       - name: Running test cases using Chrome
         uses: cypress-io/github-action@v2
         with:
